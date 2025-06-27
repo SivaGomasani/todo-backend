@@ -1,14 +1,17 @@
-# Use OpenJDK 17 as base image
-FROM openjdk:17-jdk-alpine
+# Use official OpenJDK image as base
+FROM openjdk:17-jdk-slim
+
+# Set environment variable
+ENV JAVA_OPTS=""
 
 # Set working directory
 WORKDIR /app
 
-# Copy the JAR file into the container
-COPY target/backend-spring.jar app.jar
+# Copy JAR file from target
+COPY target/*.jar app.jar
 
-# Expose port (default Spring Boot port)
+# Expose port (change if your Spring Boot app uses different)
 EXPOSE 8080
 
-# Run the jar file
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Run the app
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar"]

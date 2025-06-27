@@ -1,0 +1,8 @@
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\App.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\controller\TodoController.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\model\Lists.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\model\Todos.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\repository\DeletedRepo.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\repository\TodoRepo.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\service\DeletedService.java
+D:\Drive d\SpringBootProjects\ToDoList\backend-spring\src\main\java\com\example\backend_spring\service\TodoService.java

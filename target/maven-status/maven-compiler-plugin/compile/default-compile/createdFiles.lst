@@ -1,0 +1,8 @@
+com\example\backend_spring\repository\TodoRepo.class
+com\example\backend_spring\service\DeletedService.class
+com\example\backend_spring\service\TodoService.class
+com\example\backend_spring\model\Todos.class
+com\example\backend_spring\model\Lists.class
+com\example\backend_spring\App.class
+com\example\backend_spring\controller\TodoController.class
+com\example\backend_spring\repository\DeletedRepo.class
